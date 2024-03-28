@@ -40,13 +40,13 @@ public class Player_movement : MonoBehaviour
         {
             rigi.AddForce(new Vector2(5, 0), ForceMode2D.Force);
 
-           
+            m_Animator.SetFloat("Run", horizontalInput);
         }
         else if (Input.GetKeyDown(KeyCode.A) && rigi.velocity.x > -horizontalInput)
         {
             rigi.AddForce(new Vector2(-5, 0), ForceMode2D.Force);
 
-           
+            m_Animator.SetFloat("Run", -horizontalInput);
         }
         else if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rigi.velocity.y) < 0.01f)
         {
@@ -54,7 +54,7 @@ public class Player_movement : MonoBehaviour
         }
         else
         {
-           
+            m_Animator.SetFloat("Run", horizontalInput);
             rigi.AddForce(new Vector2(0, 0), ForceMode2D.Force);
         }
 
@@ -63,13 +63,12 @@ public class Player_movement : MonoBehaviour
 
         if (horizontalInput < 0f)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
         else if (horizontalInput > 0f)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
 
     }
 }
-

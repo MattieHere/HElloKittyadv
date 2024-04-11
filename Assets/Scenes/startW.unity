@@ -589,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
+  spawnX: 4.2
 --- !u!50 &1750258299
 Rigidbody2D:
   serializedVersion: 4

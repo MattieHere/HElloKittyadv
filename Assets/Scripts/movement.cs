@@ -51,7 +51,7 @@ public class Player_movement : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rigi.velocity.y) < 0.01f)
         {
-            rigi.AddForce(new Vector2(0, 500), ForceMode2D.Force);
+            rigi.AddForce(new Vector2(0, 250), ForceMode2D.Force);
         }
         else
         {

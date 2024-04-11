@@ -15,7 +15,7 @@ public class Player_movement : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(0, -3.325077f);
+        transform.position = new Vector3(4.2f, -4);
         rigi = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();

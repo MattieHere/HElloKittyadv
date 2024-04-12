@@ -9,13 +9,13 @@ public class SceneSwitcher : MonoBehaviour
 
     void Start()
     {
-        // Attach a method to the button's click event
+        
         switchButton.onClick.AddListener(SwitchScene);
     }
 
     void SwitchScene()
     {
-        // Load the target scene
+       
         SceneManager.LoadScene(startW);
     }
 }

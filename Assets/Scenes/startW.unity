@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown:
-    cooldownTime: 0
+    cooldownTime: 1.5
   bulletPrefab: {fileID: 8484453068852158034, guid: 36997577324b18a4fa4ba306f8c7c592, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

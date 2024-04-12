@@ -16,6 +16,10 @@ public class Skjuta : MonoBehaviour
 
     Animator m_Animator;
 
+    bool shooting;
+
+    float shootDelay;
+
     private void Start()
     {
         rend = GetComponent<SpriteRenderer>();
@@ -34,28 +38,40 @@ public class Skjuta : MonoBehaviour
 
                 m_Animator.SetBool("Shoot", true);
 
-                float dir = -0.5f;
-                if (rend.flipX)
-                {
-                    dir = 0.5f;
-                }
-
-
-
-                // Instantiate the bullet at the current position with no rotation
-                GameObject bulletGameObject = Instantiate(bulletPrefab, transform.position + new Vector3(dir, 0, 0), Quaternion.identity);
-
-                Bullet bulletcomponent = bulletGameObject.GetComponent<Bullet>();
-                bulletcomponent.Fire(new Vector3(dir * 5, 0, 0));
-
-                cooldown.StartCooldown();
-
+                shooting = true;
             }
 
         }
         else
         {
             m_Animator.SetBool("Shoot", false);
+        }
+
+        if (shooting)
+        {
+            shootDelay += Time.deltaTime;
+        }
+
+        if (shootDelay > 0.1f)
+        {
+            float dir = -0.5f;
+            if (rend.flipX)
+            {
+                dir = 0.5f;
+            }
+
+
+            // Instantiate the bullet at the current position with no rotation
+            GameObject bulletGameObject = Instantiate(bulletPrefab, transform.position + new Vector3(dir, -0.1f, 0), Quaternion.identity);
+
+            Bullet bulletcomponent = bulletGameObject.GetComponent<Bullet>();
+            bulletcomponent.Fire(new Vector3(dir * 10, 0, 0));
+
+            cooldown.StartCooldown();
+
+            shootDelay = 0;
+
+            shooting = false;
         }
 
     }

@@ -54,10 +54,10 @@ public class Skjuta : MonoBehaviour
 
         if (shootDelay > 0.1f)
         {
-            float dir = -0.5f;
+            float dir = -1f;
             if (rend.flipX)
             {
-                dir = 0.5f;
+                dir = 1f;
             }
 
 

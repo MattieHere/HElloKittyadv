@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Cooldown
+public class Cooldown2 : MonoBehaviour
 {
 
     [SerializeField] private float cooldownTime;

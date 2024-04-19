@@ -4,10 +4,10 @@ using Unity.VisualScripting;
 //using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class Skjuta : MonoBehaviour
+public class Shoot : MonoBehaviour
 {
 
-    [SerializeField] private Cooldown cooldown;
+    [SerializeField] private Cooldown2 cooldown;
 
     [SerializeField]
     private GameObject bulletPrefab;
@@ -64,7 +64,7 @@ public class Skjuta : MonoBehaviour
             // Instantiate the bullet at the current position with no rotation
             GameObject bulletGameObject = Instantiate(bulletPrefab, transform.position + new Vector3(dir, -0.1f, 0), Quaternion.identity);
 
-            Bullet bulletcomponent = bulletGameObject.GetComponent<Bullet>();
+            Bullet2 bulletcomponent = bulletGameObject.GetComponent<Bullet2>();
             bulletcomponent.Fire(new Vector3(dir * 10, 0, 0));
 
             cooldown.StartCooldown();

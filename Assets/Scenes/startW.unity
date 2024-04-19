@@ -1212,6 +1212,8 @@ GameObject:
   - component: {fileID: 1750258299}
   - component: {fileID: 1750258298}
   - component: {fileID: 1750258297}
+  - component: {fileID: 1750258304}
+  - component: {fileID: 1750258303}
   m_Layer: 0
   m_Name: hello kitty_0
   m_TagString: Untagged
@@ -1393,6 +1395,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1750258303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750258296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47d9dcce1199d84aac38c3522b116be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 1.5
+--- !u!114 &1750258304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750258296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d082beb31ad3042b859223cf21e16b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: {fileID: 1750258303}
+  bulletPrefab: {fileID: 8484453068852158034, guid: 36997577324b18a4fa4ba306f8c7c592, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

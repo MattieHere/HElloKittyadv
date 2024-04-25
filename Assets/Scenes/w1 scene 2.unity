@@ -137,8 +137,8 @@ GameObject:
   - component: {fileID: 146885904}
   - component: {fileID: 146885903}
   - component: {fileID: 146885902}
-  - component: {fileID: 146885901}
-  - component: {fileID: 146885900}
+  - component: {fileID: 146885909}
+  - component: {fileID: 146885908}
   m_Layer: 0
   m_Name: hello kitty_1
   m_TagString: Untagged
@@ -146,33 +146,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &146885900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146885899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f08902e62359d704a8dce552e9b4e4bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &146885901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146885899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bac423c599fcfbc4d8360323dd5b841a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown:
-    cooldownTime: 1.5
-  bulletPrefab: {fileID: 8484453068852158034, guid: 36997577324b18a4fa4ba306f8c7c592, type: 3}
 --- !u!95 &146885902
 Animator:
   serializedVersion: 5
@@ -347,6 +320,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146885908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146885899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47d9dcce1199d84aac38c3522b116be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 0
+--- !u!114 &146885909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146885899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d082beb31ad3042b859223cf21e16b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: {fileID: 146885908}
+  bulletPrefab: {fileID: 8484453068852158034, guid: 36997577324b18a4fa4ba306f8c7c592, type: 3}
 --- !u!1 &284445410
 GameObject:
   m_ObjectHideFlags: 0

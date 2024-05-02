@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_movement : MonoBehaviour
 {
@@ -16,7 +17,12 @@ public class Player_movement : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(spawnX, -4);
+        if(SceneManager.GetActiveScene().name == "startW")
+        {
+            transform.position = new Vector2(4.2f, -4);
+            
+        }
+      
         rigi = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -26,6 +32,7 @@ public class Player_movement : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
+        print(horizontalInput);
 
         if (horizontalInput == 0f)
         {

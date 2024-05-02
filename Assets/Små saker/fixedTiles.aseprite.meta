@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 50da0c26eb5b68b4d9aea628653f40f0
+guid: 067f2fb97737c004e9af26f3598d15d5
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638496478883771422
+  platformSettingsDirtyTick: 638496486984346469
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: tiles
+  - name: fixedTiles
     originalName: 
     pivot: {x: 1.6666667, y: -4.3913045}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 24
       height: 23
-    spriteID: ed0270ac7f59d0c4da96c50065b40434
+    spriteID: adbb7c91762498346b419ad3897cbfce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,7 +140,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: tiles_0
+  - name: fixedTiles_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -151,7 +151,7 @@ ScriptedImporter:
       y: 17
       width: 10
       height: 10
-    spriteID: 736ce6c245ebaad45a61ad2dead83164
+    spriteID: 8cd590fbdf737bc42a90aabd9fd4e452
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,7 +160,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: tiles_1
+  - name: fixedTiles_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -171,7 +171,7 @@ ScriptedImporter:
       y: 17
       width: 10
       height: 10
-    spriteID: 2716950f057bdba4c9960a81111a7200
+    spriteID: fcbd4b1a03cd86b4490a15bcd9da2dbb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,7 +180,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: tiles_2
+  - name: fixedTiles_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -191,7 +191,7 @@ ScriptedImporter:
       y: 4
       width: 10
       height: 10
-    spriteID: 38fca81d8ac0ffb45a1bec01f66e205a
+    spriteID: 2eb1a3730018bd3458eb56e19ccf2785
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,7 +200,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: tiles_3
+  - name: fixedTiles_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -211,7 +211,7 @@ ScriptedImporter:
       y: 4
       width: 10
       height: 10
-    spriteID: b584ded176ed0af46ab6df67572c3ecc
+    spriteID: 8e24c13e413cfb145a47e66d555deb5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,20 +222,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -307246145
-    name: tiles
+    guid: -1687846503
+    name: fixedTiles
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: tiles
+    - name: fixedTiles
       frameIndex: 0
       cellRect:
         x: 24
         y: 101
         width: 24
         height: 23
-      spriteId: 2186efdc6747e6e41b6ca40c1bf3dc29
+      spriteId: adbb7c91762498346b419ad3897cbfce
     linkedCells: []
     parentIndex: -1
   platformSettings:

@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bakgrund
   - Water
   - UI
   - 
@@ -41,10 +41,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Back back
+  - name: backgrund
     uniqueID: 2042837455
     locked: 0
-  - name: New Layer 1
+  - name: Tiles
     uniqueID: 2852527531
     locked: 0
   - name: Character

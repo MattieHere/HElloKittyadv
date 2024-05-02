@@ -15,7 +15,6 @@ public class MovementP2 : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(1, -3.325077f);
         rigi = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();

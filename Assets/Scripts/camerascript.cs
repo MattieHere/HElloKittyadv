@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target; // Reference to the player's transform
-    public float smoothSpeed = 0.01f; // Speed at which the camera follows the player
+    public Transform target; 
+    public float smoothSpeed = 0.01f; 
     public Vector3 offset = new Vector3(0, 0, -10);
-    // Offset from the player's position
+
 
     void LateUpdate()
         

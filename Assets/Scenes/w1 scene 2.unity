@@ -674,8 +674,8 @@ GameObject:
   m_Component:
   - component: {fileID: 752418258}
   - component: {fileID: 752418257}
+  - component: {fileID: 752418259}
   - component: {fileID: 752418256}
-  - component: {fileID: 752418255}
   m_Layer: 0
   m_Name: PORTAL
   m_TagString: Untagged
@@ -683,19 +683,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &752418255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752418254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 566f9c9b132330148b23899b45da640c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: 
 --- !u!61 &752418256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -808,6 +795,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &752418259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752418254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047bf76d40ce35645811418b25d60840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: Nex shi cuz
 --- !u!1 &1355271881
 GameObject:
   m_ObjectHideFlags: 0

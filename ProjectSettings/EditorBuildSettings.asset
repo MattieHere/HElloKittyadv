@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/w1 scene 2.unity
     guid: a6fa0dfcc2c33074da49d54d01c8c5e5
+  - enabled: 1
+    path: Assets/Scenes/Nex shi cuh W.unity
+    guid: 7c0ee9656f0760f46b854ac486eeb23e
   m_configObjects: {}

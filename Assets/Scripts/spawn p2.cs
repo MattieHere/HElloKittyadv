@@ -15,7 +15,7 @@ public class spawnp2 : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "w1 scene 2")
         {
-            transform.position = new Vector2(0,-4);
+            transform.position = new Vector2(-8,-4);
             Debug.Log("penis"); 
         }
     }

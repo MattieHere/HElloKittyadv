@@ -12,7 +12,6 @@ public class Bullet2 : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody2D>();
 
         MyRigidbody.AddForce(direction, ForceMode2D.Impulse);
-        MyRigidbody.velocity = direction;
 
 
 

@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: IDLE_ENEMY_SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 168
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80513935911839d48bce3b185fb2010e
+      internalID: -785976652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_ENEMY_SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 168
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2188bb61b6ffc64a899d8a08f8dbd17
+      internalID: -284417247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_ENEMY_SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 40
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0677d071930274799a02ca63affe4e
+      internalID: -1935895012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IDLE_ENEMY_SHEET_0: -785976652
+      IDLE_ENEMY_SHEET_1: -284417247
+      IDLE_ENEMY_SHEET_2: -1935895012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

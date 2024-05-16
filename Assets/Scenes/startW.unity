@@ -1421,8 +1421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d082beb31ad3042b859223cf21e16b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: {fileID: 1750258303}
-  bulletPrefab: {fileID: 8484453068852158034, guid: 36997577324b18a4fa4ba306f8c7c592, type: 3}
 --- !u!114 &1750258305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,6 +1452,7 @@ GameObject:
   - component: {fileID: 1884044972}
   - component: {fileID: 1884044971}
   - component: {fileID: 1884044976}
+  - component: {fileID: 1884044977}
   m_Layer: 0
   m_Name: IDLE_ENEMY
   m_TagString: Untagged
@@ -1627,6 +1626,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ee03104f496e4c4d82692a2bc7a095d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1884044977
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884044970}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 58c3134952aed0a469ae1e2df339c6ce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

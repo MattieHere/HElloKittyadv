@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 172
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e044ffbc8e0149945b515c585b1f53f4
+      internalID: 940239074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 172
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090df69beae4dae489e6ab4a14da0196
+      internalID: -299624921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 173
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aed7f110a68c1f40b12a11699403355
+      internalID: -1883451910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 45
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5c58a41f37cc41be1d2124182b348
+      internalID: -1297541524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 44
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd68dd461156fb34d8b707a432f81173
+      internalID: 2002961703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KuramiWalk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 45
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcf62de905d672459af01bb42381658
+      internalID: -2100147125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KuramiWalk-Sheet_0: 940239074
+      KuramiWalk-Sheet_1: -299624921
+      KuramiWalk-Sheet_2: -1883451910
+      KuramiWalk-Sheet_3: -1297541524
+      KuramiWalk-Sheet_4: 2002961703
+      KuramiWalk-Sheet_5: -2100147125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

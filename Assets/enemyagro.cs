@@ -14,15 +14,20 @@ public class enemyagro : MonoBehaviour
     float moveSpeed;
 
     Rigidbody2D rb2d;
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        
 
     }
 
 
     void Update()
     {
+
+       
+
         float distToHellokitty_0 = Vector2.Distance(transform.position, hellokitty_0.position);
 
         if (distToHellokitty_0 < agroRange)
@@ -34,6 +39,8 @@ public class enemyagro : MonoBehaviour
             StopChasingPlayer();
         }
 
+       
+
     }
     void ChasePlayer()
     {
@@ -44,6 +51,16 @@ public class enemyagro : MonoBehaviour
         else
         {
             rb2d.velocity = new Vector2(-moveSpeed, 0);
+        }
+
+        float horizontalInput = Input.GetAxis("Horizontal");
+        if (horizontalInput < 0f)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (horizontalInput > 0f)
+        {
+            spriteRenderer.flipX = true;
         }
     }
     void StopChasingPlayer()
